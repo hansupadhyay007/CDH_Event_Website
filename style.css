@@ -64,7 +64,6 @@ body {
 
 .custom-nav {
     background: transparent;
-    padding: 20.3px;
     font-family: var(--primaryFont);
     font-weight: 600;
 }
@@ -175,7 +174,8 @@ body {
 .landing-page {
     min-height: 100vh;
     position: relative;
-    background: url('./Images/Background/bg1.jpg');
+    /* background: url('./Images/Logos/cdh_group_photo.jpeg'); */
+    background-color: #2b3e8b;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -549,7 +549,7 @@ header {
 }
 
 .gallery-img {
-    background: url('./Images/Background/gallery.jpg');
+    background: url('./Images/Logos/cdh_5.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 344.8px;
@@ -577,7 +577,7 @@ header {
 }
 
 .video-img {
-    background: url('./Images/Background/video.jpg');
+    background: url('./Images/Logos/cdh_6.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -910,27 +910,28 @@ header {
     justify-content: center;
 }
 
-.custom-carousel .owl-dots.disabled {
+/* .custom-carousel .owl-dots.disabled {
     display: block !important;
-}
+} */
 
 .speaker-pictures:hover {
-    background: var(--primaryHoverColor) !important;
+    /* background: var(--primaryHoverColor) !important; */
     cursor: pointer;
+    transform: scale(1.1);
 }
 
-.speaker-pictures:hover img {
+/* .speaker-pictures:hover img {
     opacity: 0;
-}
+} */
 
 .speaker-pictures img,
 .speaker-img-content {
     transition: var(--primaryTransition);
 }
 
-.speaker-pictures:hover .speaker-img-content {
+/* .speaker-pictures:hover .speaker-img-content {
     opacity: 1;
-}
+} */
 
 .speaker-heading {
     text-align: center;
@@ -1150,7 +1151,8 @@ header {
 /* SECTION - 6 START */
 .sign-up {
     min-height: calc(100vh - 230px);
-    background: url('./Images/Background/bg-input.jpg');
+    /* background: url('./Images/Background/bg-input.jpg'); */
+    background-color: #2b3e8b;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -1321,7 +1323,8 @@ header {
 /* SECTION - 8 START */
 .newsletter {
     min-height: calc(100vh - 205px);
-    background: url('./Images/Background/macbook.jpg');
+    /* background: url('./Images/Background/macbook.jpg'); */
+    background-color: #2b3e8b;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;

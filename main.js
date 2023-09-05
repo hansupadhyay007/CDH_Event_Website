@@ -116,13 +116,13 @@ $('.custom-carousel').owlCarousel({
     }
 });
 document.getElementById("btn-1").addEventListener("click", function () {
-    document.getElementById("sch_date").innerHTML = "SEPTEMBER 15, 2021";
+    document.getElementById("sch_date").innerHTML = "SEPTEMBER 22, 2023";
     document.getElementById("btn-1").classList.add("active_schedule_btn");
     document.getElementById("btn-2").classList.remove("active_schedule_btn");
     document.getElementById("btn-3").classList.remove("active_schedule_btn");
     document.getElementById("btn-4").classList.remove("active_schedule_btn");
-    document.getElementById("acc-title-1").innerHTML = "WELCOME SPEECH AND OVERVIEW";
-    document.getElementById("acc-title-2").innerHTML = "<strong>Andrew Yang</strong> - CEO, Microsoft";
+    document.getElementById("acc-title-1").innerHTML = "APTITUDE ROUND";
+    document.getElementById("acc-title-2").innerHTML = "<strong>PLATTFORM</strong> - ONLINE, WEBSITE";
     document.getElementById("acc-title-3").innerHTML = "THE IMPACT OF AI ON WORLD";
     document.getElementById("acc-title-4").innerHTML = "<strong>Tim Cook</strong> - CEO, Apple";
     document.getElementById("acc-title-5").innerHTML = "CATERED LUNCH BUFFET";
@@ -131,13 +131,13 @@ document.getElementById("btn-1").addEventListener("click", function () {
     document.getElementById("acc-title-8").innerHTML = "<strong>Mary Doe</strong> - Lead Designer, Google";
 });
 document.getElementById("btn-2").addEventListener("click", function () {
-    document.getElementById("sch_date").innerHTML = "SEPTEMBER 16, 2021";
+    document.getElementById("sch_date").innerHTML = "SEPTEMBER 28, 2023";
     document.getElementById("btn-2").classList.add("active_schedule_btn");
     document.getElementById("btn-1").classList.remove("active_schedule_btn");
     document.getElementById("btn-3").classList.remove("active_schedule_btn");
     document.getElementById("btn-4").classList.remove("active_schedule_btn");
-    document.getElementById("acc-title-1").innerHTML = "SEMINAR ON DEEPLEARNING & TENSORFLOW";
-    document.getElementById("acc-title-2").innerHTML = "<strong>Gennady Korotkevich</strong> - #1 IN GOOGLE CODE JAM";
+    document.getElementById("acc-title-1").innerHTML = "CODING | PROJECT";
+    document.getElementById("acc-title-2").innerHTML = "<strong>ONLINE MEET</strong> - IN GOOGLE MEET";
     document.getElementById("acc-title-3").innerHTML = "DATA MINING & DRILLING NUMPY";
     document.getElementById("acc-title-4").innerHTML = "<strong>William Lin</strong> - Freshman, MIT";
     document.getElementById("acc-title-5").innerHTML = "CATERED LUNCH BUFFET";
@@ -146,13 +146,13 @@ document.getElementById("btn-2").addEventListener("click", function () {
     document.getElementById("acc-title-8").innerHTML = "<strong>Sarah Ricky</strong> - Lead Designer, Microsoft";
 });
 document.getElementById("btn-3").addEventListener("click", function () {
-    document.getElementById("sch_date").innerHTML = "SEPTEMBER 17, 2021";
+    document.getElementById("sch_date").innerHTML = "SEPTEMBER 29, 2023";
     document.getElementById("btn-3").classList.add("active_schedule_btn");
     document.getElementById("btn-1").classList.remove("active_schedule_btn");
     document.getElementById("btn-2").classList.remove("active_schedule_btn");
     document.getElementById("btn-4").classList.remove("active_schedule_btn");
-    document.getElementById("acc-title-1").innerHTML = "JOURNEY INTO THE AI REALM";
-    document.getElementById("acc-title-2").innerHTML = "<strong>Andrew Ng.</strong> - FOUNDER & CEO OF Landing AI";
+    document.getElementById("acc-title-1").innerHTML = "GROUP DISCUSSION";
+    document.getElementById("acc-title-2").innerHTML = "<strong>BY CDH TEAM</strong> - SENIORS";
     document.getElementById("acc-title-3").innerHTML = "ERA OF MACHINE LEARNING";
     document.getElementById("acc-title-4").innerHTML = "<strong>Fei-Fei Li.</strong> - Professor of CS, Stanford University";
     document.getElementById("acc-title-5").innerHTML = "CATERED LUNCH BUFFET";
@@ -161,13 +161,13 @@ document.getElementById("btn-3").addEventListener("click", function () {
     document.getElementById("acc-title-8").innerHTML = "<strong>Mary Doe</strong> - Lead Designer, Google";
 });
 document.getElementById("btn-4").addEventListener("click", function () {
-    document.getElementById("sch_date").innerHTML = "SEPTEMBER 18, 2021";
+    document.getElementById("sch_date").innerHTML = "SEPTEMBER 30, 2023";
     document.getElementById("btn-4").classList.add("active_schedule_btn");
     document.getElementById("btn-1").classList.remove("active_schedule_btn");
     document.getElementById("btn-2").classList.remove("active_schedule_btn");
     document.getElementById("btn-3").classList.remove("active_schedule_btn");
-    document.getElementById("acc-title-1").innerHTML = "INTRODUCTION TO WEB-PROGRAMMING";
-    document.getElementById("acc-title-2").innerHTML = "<strong>Henry Rich</strong> - Lead Programmer, SpaceX";
+    document.getElementById("acc-title-1").innerHTML = "FINAL INTERVIEW";
+    document.getElementById("acc-title-2").innerHTML = "<strong>CDH ROOM</strong> - CDH LEADS";
     document.getElementById("acc-title-3").innerHTML = "PLAYING WITH FUNDAMENTALS OF JAVA";
     document.getElementById("acc-title-4").innerHTML = "<strong>Errichto</strong> - International Grandmaster, Codeforce";
     document.getElementById("acc-title-5").innerHTML = "CATERED LUNCH BUFFET";
