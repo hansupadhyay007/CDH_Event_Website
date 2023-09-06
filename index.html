@@ -88,7 +88,7 @@
                                 <a class="nav-link custom-nav-link" id="HME" aria-current="page" href="#home">Home</a>
                             </li>
                             <li class="nav-item custom-nav-item">
-                                <a class="nav-link custom-nav-link" id="ABT" aria-current="page" href="#about">About</a>
+                                <a class="nav-link custom-nav-link" id="ABT" aria-current="page" href="#about">Event</a>
                             </li>
                             <li class="nav-item custom-nav-item">
                                 <a class="nav-link custom-nav-link" id="SCH" aria-current="page"
@@ -117,145 +117,7 @@
         </div>
     </div>
     <!-- ====== NAVBAR END   ====== -->
-    <!-- Newsletter -->
-    <!--<div id="myModal" class="modal fade" id="Modal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true"
-        style="z-index: 99999999;">
-        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-            <div class="modal-content bg-dark modal-lg rounded-0" style="border:2px solid #1bce7c;">
-                <div class="modal-header py-4">
-                    <h5 class="modal-title text-center w-100 text-uppercase" id="ModalLabel"
-                        style="color:#1bce7c;font-size: 15px;letter-spacing: 0.2em;font-weight: 700;">Subscribe our
-                        Newsletter</h5>
-                    <button type="button" onclick="$('.modal').hide();" class="btn-close modal_close" id="closebtn"
-                        data-bs-dismiss="modal" aria-label="Close" style="z-index:2500;">
-                        <i class="fas fa-times" style="font-size: 20px;"></i>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <form class="row g-3" action="https://formspree.io/f/xvodvebq" method="POST">
-                        <div class="col-md-6">
-                            <label for="inputName" class="form-label text-white">Name:</label>
-                            <input type="text" class="form-control" name="inputName" id="inputName" placeholder="Name"
-                                required>
-                        </div>
-                        <div class="col-md-6">
-                            <label for="inputEmail4" class="form-label text-white">Email:</label>
-                            <input type="email" class="form-control" name="inputEmail4" id="inputEmail4"
-                                placeholder="Email" required>
-                        </div>
-                        <div class="col-md-12">
-                            <label for="inputPhone4" class="form-label text-white">Phone:</label>
-                            <input type="number" class="form-control" name="inputPhone4" id="inputPhone4"
-                                placeholder="Phone" required>
-                        </div>
-                        <div class="col-md-4">
-                            <label for="inputCity" class="form-label text-white">City:</label>
-                            <input type="text" list="city" class="form-control" name="inputCity" placeholder="City"
-                                id="inputCity" required>
-                            <datalist id="city">
-                                <option value="Ellicott City"></option>
-                                <option value="Alexander City"></option>
-                                <option value="Andalusia"></option>
-                                <option value="College Park"></option>
-                                <option value="Anniston"></option>
-                                <option value="Athens"></option>
-                                <option value="Atmore"></option>
-                                <option value="Auburn"></option>
-                                <option value="Bessemer"></option>
-                                <option value="Birmingham"></option>
-                                <option value="Chickasaw"></option>
-                                <option value="Clanton"></option>
-                                <option value="Cullman"></option>
-                                <option value="Decatur"></option>
-                                <option value="Demopolis"></option>
-                                <option value="Guntersville"></option>
-                                <option value="Greenville"></option>
-                                <option value="Marion"></option>
-                            </datalist>
-                        </div>
-                        <div class="col-md-4">
-                            <label for="inputState" class="form-label text-white">State:</label>
-                            <select id="inputState" name="inputState" class="form-control" required>
-                                <option selected>Choose...</option>
-                                <option value="AL">Alabama</option>
-                                <option value="AK">Alaska</option>
-                                <option value="AZ">Arizona</option>
-                                <option value="AR">Arkansas</option>
-                                <option value="CA">California</option>
-                                <option value="CO">Colorado</option>
-                                <option value="CT">Connecticut</option>
-                                <option value="DE">Delaware</option>
-                                <option value="DC">District Of Columbia</option>
-                                <option value="FL">Florida</option>
-                                <option value="GA">Georgia</option>
-                                <option value="HI">Hawaii</option>
-                                <option value="ID">Idaho</option>
-                                <option value="IL">Illinois</option>
-                                <option value="IN">Indiana</option>
-                                <option value="IA">Iowa</option>
-                                <option value="KS">Kansas</option>
-                                <option value="KY">Kentucky</option>
-                                <option value="LA">Louisiana</option>
-                                <option value="ME">Maine</option>
-                                <option value="MD">Maryland</option>
-                                <option value="MA">Massachusetts</option>
-                                <option value="MI">Michigan</option>
-                                <option value="MN">Minnesota</option>
-                                <option value="MS">Mississippi</option>
-                                <option value="MO">Missouri</option>
-                                <option value="MT">Montana</option>
-                                <option value="NE">Nebraska</option>
-                                <option value="NV">Nevada</option>
-                                <option value="NH">New Hampshire</option>
-                                <option value="NJ">New Jersey</option>
-                                <option value="NM">New Mexico</option>
-                                <option value="NY">New York</option>
-                                <option value="NC">North Carolina</option>
-                                <option value="ND">North Dakota</option>
-                                <option value="OH">Ohio</option>
-                                <option value="OK">Oklahoma</option>
-                                <option value="OR">Oregon</option>
-                                <option value="PA">Pennsylvania</option>
-                                <option value="RI">Rhode Island</option>
-                                <option value="SC">South Carolina</option>
-                                <option value="SD">South Dakota</option>
-                                <option value="TN">Tennessee</option>
-                                <option value="TX">Texas</option>
-                                <option value="UT">Utah</option>
-                                <option value="VT">Vermont</option>
-                                <option value="VA">Virginia</option>
-                                <option value="WA">Washington</option>
-                                <option value="WV">West Virginia</option>
-                                <option value="WI">Wisconsin</option>
-                                <option value="WY">Wyoming</option>
-                            </select>
-                        </div>
-                        <div class="col-md-4">
-                            <label for="inputZip" class="form-label text-white">Zip:</label>
-                            <input type="text" class="form-control" name="inputZip" id="inputZip" placeholder="10040"
-                                required>
-                        </div>
-                        <div class="col-12 col-md-12">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="gridCheck" required>
-                                <label class="form-check-label text-white" for="gridCheck">
-                                    I agree with the Terms of Service.
-                                </label>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-12">
-                            <button type="submit" class="btn btn-primary">Subscribe</button>
-                        </div>
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" onclick="$('.modal').hide();" class="btn btn-secondary" id="closebutton"
-                        data-bs-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    < Newsletter -->
+
     <!-- SECTION - 1 START -->
     <section class="container-fluid landing-page d-flex align-items-center justify-content-center flex-column"
         id="home">
@@ -374,8 +236,8 @@
                         <div class="col-md-6">
                             <div class="about_us_grid wow animated fadeInUp" data-wow-duration="1.2s"
                                 data-wow-delay="0.3s">
-                                <span class="counter">72</span><span>+</span>
-                                <h5>HOURS</h5>
+                                <span><b>C</b></span>
+                                <h5>CAREER</h5>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis interdum.
                                 </p>
                             </div>
@@ -383,32 +245,32 @@
                         <div class="col-md-6">
                             <div class="about_us_grid wow animated fadeInUp" data-wow-duration="1.2s"
                                 data-wow-delay="0.5s">
-                                <span class="counter">16</span><span>+</span>
-                                <h5>SPEAKERS</h5>
+                                <span><b>D</b></span><!--<span>+</span>-->
+                                <h5>DEVELOPMENT</h5>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis interdum.
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="row mb-5">
-                        <div class="col-md-6">
+                        <!-- <div class="col-md-6"> -->
                             <div class="about_us_grid wow animated fadeInUp" data-wow-duration="1.2s"
                                 data-wow-delay="0.7s">
-                                <span class="counter">38</span><span>+</span>
-                                <h5>COMPONENTS</h5>
+                                <span><b>H</b></span><!--<span>+</span>-->
+                                <h5>HUB</h5>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis interdum.
                                 </p>
                             </div>
-                        </div>
-                        <div class="col-md-6">
+                        <!-- </div> -->
+                        <!-- <div class="col-md-6">
                             <div class="about_us_grid wow animated fadeInUp" data-wow-duration="1.2s"
                                 data-wow-delay="0.9s">
-                                <span class="counter">25</span><span>+</span>
+                                <span>M</span><span>+</span>
                                 <h5>TECHNOLOGIES</h5>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis interdum.
                                 </p>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -1005,7 +867,7 @@
                 <div class="card">
                   <img class="card-img-top" src="Images/Logos/cdh_group_photo.jpeg" alt="Card image cap">
                   <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
+                    <h5 class="card-title">Title</h5>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
                     
                   </div>
